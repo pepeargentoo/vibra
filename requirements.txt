@@ -1,0 +1,9 @@
+alembic
+Flask
+Mako
+pylint
+pytest
+python-editor
+flask_restful
+requests
+pytest-html

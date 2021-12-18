@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "00581b45-a190-4262-a8cb-e6dd200caee2",
+		"name": "vibra",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "challange",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/search?name=Man",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Tugulym",
+							"disabled": true
+						},
+						{
+							"key": "quantity",
+							"value": "5",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "Man"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
